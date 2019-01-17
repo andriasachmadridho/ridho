@@ -1,0 +1,7 @@
+-- Write only the SQL statement that solves the problem and nothing else.
+Create Table students (
+    id int NOT NULL,   
+    firstName varchar(30) NOT NULL,
+    lasName varchar(30) NOT NULL,
+    PRIMARYKEY (id)
+);
